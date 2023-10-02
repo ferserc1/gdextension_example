@@ -2,6 +2,7 @@
 *.exp
 *.lib
 sconsign.dblite
+.sconsign.dblite
 libgdexample.macos.template_debug
 gdexample.os
 register_types.os
