@@ -4,13 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://cvvyfe4rw8um1" path="res://icon.svg" id="1_k2he2"]
 
 [node name="Main" type="Node2D"]
-position = Vector2(544, 290)
+position = Vector2(105, 122)
 script = ExtResource("1_ihub0")
 
 [node name="GDExample" type="GDExample" parent="."]
-amplitude = 50.0
-speed = 6.0
-position = Vector2(99.4462, 57.4209)
+amplitude_x = 250.0
+amplitude_y = 180.0
+speed = 0.6
+position = Vector2(499.762, 187.857)
 texture = ExtResource("1_k2he2")
 
 [connection signal="position_changed" from="GDExample" to="." method="_on_gd_example_position_changed"]

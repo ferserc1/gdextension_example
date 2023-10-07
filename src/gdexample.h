@@ -10,7 +10,8 @@ class GDExample : public Sprite2D {
 
 private:
     double time_passed;
-    double amplitude;
+    double amplitude_x;
+    double amplitude_y;
     double speed;
     double time_emit;
 
@@ -21,8 +22,10 @@ public:
     GDExample();
     ~GDExample();
 
-    void set_amplitude(const double p_amplitude);
-    double get_amplitude() const;
+    void set_amplitude_x(const double p_amplitude);
+    double get_amplitude_x() const;
+    void set_amplitude_y(const double p_amplitude);
+    double get_amplitude_y() const;
     void set_speed(const double p_speed);
     double get_speed() const;
 
